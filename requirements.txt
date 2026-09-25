@@ -1,0 +1,34 @@
+# =====================================================================
+# RoadEye - Unified Python Dependencies Specification
+# =====================================================================
+
+# --- Deep Learning & Computer Vision Inference ---
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.40.0
+scikit-learn>=1.4.0
+supervision>=0.20.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+
+# --- Numerical, Scientific & Geometry Operations ---
+numpy>=1.24.0,<3.0.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+
+# --- Backend Web Frameworks & APIs ---
+fastapi>=0.110.0
+uvicorn>=0.28.0
+flask>=3.0.0
+pydantic>=2.0.0
+python-multipart>=0.0.9
+
+# --- Cloud Database, Storage & Networking ---
+supabase>=2.3.0
+httpx>=0.25.0
+requests>=2.31.0
+PyJWT>=2.8.0
+python-dotenv>=1.0.0
+
+# --- Asynchronous Services & Alerting ---
+aiosmtplib>=3.0.0
